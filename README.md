@@ -1,6 +1,12 @@
-# Machine Learning ETL Pipeline for NASA Airfoil Noise Prediction
+# NASA Airfoil Noise Prediction - ML ETL Pipeline
 
-## Project Overview
+## 👤 Author
+
+| Name            | Role              | LinkedIn                                      |
+|-----------------|-------------------|-----------------------------------------------|
+| Jason Emmanuel  | Data Engineer | [linkedin.com/in/jasoneml](https://www.linkedin.com/in/jasoneml/) |
+
+## 📋 Project Overview
 
 You are a data engineer at an aeronautics consulting company specializing in designing airfoils for planes and sports cars. The company relies on efficient data pipelines and machine learning to predict airfoil noise levels, which helps optimize airfoil design.
 
@@ -8,7 +14,7 @@ This project demonstrates a complete ML ETL pipeline on a modified version of th
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 - Original Dataset: [NASA Airfoil Self Noise dataset](https://archive.ics.uci.edu/dataset/291/airfoil+self+noise)
 - Modified Dataset (used in this project): [NASA_airfoil_noise_raw.csv](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-BD0231EN-Coursera/datasets/NASA_airfoil_noise_raw.csv)
@@ -16,9 +22,9 @@ This project demonstrates a complete ML ETL pipeline on a modified version of th
 
 ---
 
-## Project Structure
+## 🗂 Project Structure
 
-### Part 1: Perform ETL Activity
+### 🔄 Part 1: Perform ETL Activity
 
 1. Load CSV dataset into Spark DataFrame.
 2. Remove duplicate rows.
@@ -26,7 +32,7 @@ This project demonstrates a complete ML ETL pipeline on a modified version of th
 4. Rename the target column from `SoundLevel` to `SoundLevelDecibels`.
 5. Save the cleaned data as a Parquet file (`NASA_airfoil_noise_cleaned.parquet`).
 
-### Part 2: Create a Machine Learning Pipeline
+### 🧩 Part 2: Create a Machine Learning Pipeline
 
 1. Load cleaned data from Parquet file.
 2. Assemble feature columns into a vector using `VectorAssembler`.
@@ -36,7 +42,7 @@ This project demonstrates a complete ML ETL pipeline on a modified version of th
 6. Split data into training and testing sets.
 7. Fit the pipeline to the training data.
 
-### Part 3: Evaluate the Model
+### 📈 Part 3: Evaluate the Model
 
 1. Use the trained pipeline model to predict on the test set.
 2. Evaluate model performance using:
@@ -45,7 +51,7 @@ This project demonstrates a complete ML ETL pipeline on a modified version of th
    - R-Squared (R²)
 3. Print model intercept and metrics.
 
-### Part 4: Persist the Model
+### 💾 Part 4: Persist the Model
 
 1. Save the trained pipeline model to disk (`Final_Project` directory).
 2. Load the saved model back from disk.
@@ -54,9 +60,9 @@ This project demonstrates a complete ML ETL pipeline on a modified version of th
 
 ---
 
-## Environment Setup
+## 🛠 Environment Setup
 
-### Required Libraries
+### 📦 Required Libraries
 
 ```bash
 pip install pyspark==3.1.2 findspark
