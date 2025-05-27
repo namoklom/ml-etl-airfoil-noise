@@ -1,4 +1,4 @@
-# NASA Airfoil Noise Prediction - ML ETL Pipeline
+# Machine Learning ETL Pipeline for NASA Airfoil Noise Prediction
 
 ## 👤 Author
 
