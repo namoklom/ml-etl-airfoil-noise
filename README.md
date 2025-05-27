@@ -12,6 +12,8 @@ You are a data engineer at an aeronautics consulting company specializing in des
 
 This project demonstrates a complete ML ETL pipeline on a modified version of the NASA Airfoil Self Noise dataset. The goal is to clean the data, build a predictive model for the noise level, evaluate the model, and persist it for production use.
 
+![image](https://github.com/user-attachments/assets/37c4e635-4c71-448b-8b55-9575643b975e)
+
 ---
 
 ## 📊 Dataset
@@ -57,6 +59,21 @@ This project demonstrates a complete ML ETL pipeline on a modified version of th
 2. Load the saved model back from disk.
 3. Make predictions with the loaded model to verify correctness.
 4. Print model coefficients for each feature.
+
+---
+
+## Tools and Libraries Used
+
+| Tool / Library          | Purpose / Description                          | Installation Command                    |
+|------------------------|-----------------------------------------------|---------------------------------------|
+| Python                 | Programming language                           | [Python 3.x](https://www.python.org)  |
+| PySpark                | Apache Spark Python API for big data processing and ML | `pip install pyspark==3.1.2`           |
+| findspark              | Helper to locate Spark installation            | `pip install findspark`                |
+| Jupyter Notebook       | Interactive development environment             | `pip install notebook`                 |
+| pip                    | Python package installer                        | Comes with Python                      |
+| pandas (optional)      | Data manipulation and analysis                  | `pip install pandas`                   |
+| matplotlib / seaborn (optional) | Data visualization                      | `pip install matplotlib seaborn`      |
+| Java (JRE)             | Required by Spark to run (Java Runtime Env.)   | [Download JRE](https://java.com)      |
 
 ---
 
