@@ -4,7 +4,7 @@
 
 | Name            | Role              | LinkedIn                                      |
 |-----------------|-------------------|-----------------------------------------------|
-| Jason Emmanuel  | Data Engineer | [linkedin.com/in/jasoneml](https://www.linkedin.com/in/jasoneml/) |
+| Jason Emmanuel  | Data Enineer | [linkedin.com/in/jasoneml](https://www.linkedin.com/in/jasoneml/) |
 
 ## 📋 Project Overview
 
